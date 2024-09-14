@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "f1",
+  "version": "${version}",
+  "name": "F1",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/f1/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dk.heibergen.f1.client.F1Client"
+    ],
+    "main": [
+      "dk.heibergen.f1.F1"
+    ]
+  },
+  "mixins": [
+    "f1.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

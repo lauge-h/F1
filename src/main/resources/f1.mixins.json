@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dk.heibergen.f1.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+  ],
+  "client": [
+    "F1Mixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

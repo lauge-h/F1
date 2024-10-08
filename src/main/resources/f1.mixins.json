@@ -4,9 +4,15 @@
   "package": "dk.heibergen.f1.client.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "FovMixin",
+    "InvMixin",
+    "MouseMixin"
   ],
   "client": [
-    "F1Mixin"
+    "FovMixin",
+    "InvMixin",
+    "KeyBindingMixin",
+    "MouseMixin"
   ],
   "injectors": {
     "defaultRequire": 1

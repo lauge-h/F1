@@ -2,10 +2,13 @@
   "schemaVersion": 1,
   "id": "f1",
   "version": "${version}",
-  "name": "F1",
+  "name": "F1 Zoom",
   "description": "",
   "authors": [],
-  "contact": {},
+  "contact": {
+    "discord DM": "https://discord.com/channels/@me/775642400080789534",
+    "github": "https://github.com/lauge-h"
+  },
   "license": "All-Rights-Reserved",
   "icon": "assets/f1/icon.png",
   "environment": "client",
@@ -23,6 +26,6 @@
   "depends": {
     "fabricloader": "*",
     "fabric": "*",
-    "minecraft": "${minecraft_version}"
+    "minecraft": "*"
   }
 }

@@ -1,12 +1,6 @@
 # F1
-
 ### It *zooms*.
 
-This is a very simple mod. Press a key to zoom. Release it to unzoom.
-If you do not need more than that, this mod is perfect.
+This is a very simple mod for learning java mixins while making a product I intend to actually use.
 
-By default, the bind to zoom is [C], but this is configurable.
-
- This was made to learn Java Mixins, while making a product I actually use.
-
- See modrinth https://modrinth.com/mod/f1-zoom
+By default, the bind is [C], but this is configurable. 
